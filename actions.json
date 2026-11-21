@@ -1,0 +1,9 @@
+{
+  "_help": "Hold one of these hand poses still for ~1 second to fire its action. Action types: open_app, open_url, hotkey, shell. Edit freely, then restart.",
+  "open_palm": { "label": "Mission Control", "type": "shell", "cmd": "open -a 'Mission Control'" },
+  "thumbs_up": { "label": "Open Chrome", "type": "open_app", "app": "Google Chrome" },
+  "rock": { "label": "Open Slack", "type": "open_app", "app": "Slack" },
+  "three": { "label": "Open YouTube", "type": "open_url", "url": "https://www.youtube.com" },
+  "call_me": { "label": "Spotlight", "type": "hotkey", "keys": ["command", "space"] },
+  "pinky": { "label": "Open VS Code", "type": "open_app", "app": "Visual Studio Code" }
+}
